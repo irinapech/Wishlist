@@ -16,7 +16,7 @@
     color: violet;
 }
 
-.sidebarheader{
+.sidebarheader {
     font: italic small-caps bold 45px/60px Georgia, serif;
 }
 
@@ -53,7 +53,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: blueviolet;
-    color:violet;
+    color: violet;
 }
 
 .welcome,
@@ -67,7 +67,7 @@ input[type=submit]:hover {
     color: white;
 }
 
-.welcome{
+.welcome {
     background-image: url(crystals.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -102,18 +102,18 @@ p {
 .wishlistButton:hover,
 .wishlistButton:active {
     background-color: violet;
-    color:blueviolet;
+    color: blueviolet;
 }
 
 .list {
     font: italic small-caps bold 30px/45px Georgia, serif;
-    color:#c3073f;
+    color: #c3073f;
     padding-right: 30px;
 }
 
 a:link,
 a:visited {
-    color:#c3073f;
+    color: #c3073f;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
@@ -125,10 +125,22 @@ a:active {
     color: #4e4e50;
 }
 
-.table{
+.table {
     padding: 0 100px;
     background-image: url(nightRoad.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
     background-position: center;
+}
+
+table,
+th,
+td{
+    border: 1px solid #c3073f;
+    background-color: rgba(111, 34, 50, 0.4);
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
 }
