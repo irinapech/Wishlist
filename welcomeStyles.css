@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    height: 600px;
+    height: 700px;
     width: auto;
     font: italic small-caps 15px/20px Georgia, serif;
 }
@@ -12,7 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: violet;
 }
 
@@ -27,7 +26,8 @@ form {
 }
 
 input,
-select {
+select,
+textarea {
     width: 100%;
     padding: 14px 20px;
     margin: 8px 0;
@@ -35,7 +35,8 @@ select {
 }
 
 input[type=text],
-select {
+select,
+textarea {
     display: inline-block;
     border: 2px solid blueviolet;
     border-radius: 25px;
@@ -72,6 +73,10 @@ input[type=submit]:hover {
     background-attachment: fixed;
     background-size: 100% 100%;
     background-position: center;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .welcomeHeader {
@@ -80,10 +85,15 @@ input[type=submit]:hover {
     padding: 10px;
 }
 
+header {
+    font-size: 30px;
+    margin: 10px;
+}
+
 p {
     background-color: violet;
     border-radius: 25px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -135,7 +145,7 @@ a:active {
 
 table,
 th,
-td{
+td {
     border: 1px solid #c3073f;
     background-color: rgba(111, 34, 50, 0.4);
     color: white;
@@ -143,4 +153,12 @@ td{
     padding: 10px;
     text-align: center;
     font-weight: 900;
+}
+
+th {
+    font-size: 30px;
+}
+
+textarea{
+    resize:none;
 }
